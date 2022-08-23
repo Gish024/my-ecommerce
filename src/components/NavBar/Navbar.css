@@ -1,0 +1,20 @@
+nav {
+    height: 10em;
+    width: 100%;
+    background: rgb(129, 123, 123);
+}
+nav .navbar-brand {
+    font-size: 4em;
+    color: rgb(77, 108, 247);
+    font-style: italic;
+    margin-right: 3em;
+
+}
+nav p {
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+nav .nav-item {
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
