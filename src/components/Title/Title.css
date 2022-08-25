@@ -1,4 +1,7 @@
 h1 {
     font-size: 5em;
-    justify-content: center ;
+    justify-content: center;
+    margin-left: 7em;
+    color: blueviolet;
+    text-decoration: italic;
 }
