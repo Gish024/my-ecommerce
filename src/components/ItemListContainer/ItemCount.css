@@ -1,0 +1,20 @@
+.count-container {
+    position: relative;    
+    text-align: center;
+    border: 2px solid rgb(4, 160, 79);
+    width: 15em;
+    height: 10em;
+    margin-left: 30em;
+    padding-top: 1em;
+}
+
+.count-container__button {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+.button-primary {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
+}

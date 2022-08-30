@@ -3,14 +3,16 @@ import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 import './App.css';
-import React, { Component } from 'react';
-import ItemCount from './components/ItemListContainer/ItemCount.js';
+import ItemCount from './components/ItemListContainer/ItemCount';
 
 
-  class App extends Component {
+  export default function App() {
 
-    render()  { 
-      return (
+    const onAdd = (qty) => {
+      alert(`Agregaste ${qty} producto a tu carrito de compra`);
+    };
+
+    return (
         <>
           <NavBar/> 
   
@@ -18,10 +20,9 @@ import ItemCount from './components/ItemListContainer/ItemCount.js';
                 
           <h3>Productos de temporada, seleccionados cuidadosamente y sencillamente deliciosos</h3>
                 
-          <ItemCount stock="10" initial="1"/>  
+          <ItemCount onAdd={onAdd} initial={1} stock={10} />  
       </>
       );
-    };
 }
 
-export default App;
+

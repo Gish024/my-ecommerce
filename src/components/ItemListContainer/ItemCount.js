@@ -1,43 +1,39 @@
-//import React, { useState, useEffect } from "react";
-import React, { Component } from 'react';
+import React from 'react';
+import { useState } from 'react';
 
-class ItemCount extends Component {
+import './ItemCount.css';
 
-    constructor() {
-      super();
+const ItemCount = ({ onAdd, initial, stock }) => {
 
-      this.state = {
-        counter: 1,
-      };
-    }
+    const [qty, setQty] = useState(initial);
 
-    CounterUp = () => {
-        let stock = 10; 
-        if(this.state.counter < stock) {
-            this.setState({counter : this.state.counter + 1})
-        }
-    }
+    const addProduct = (num) => {
+        setQty(qty + num);
+    };
 
-    CounterDown = () => {
-        if(this.state.counter > 0) {
-           this.setState({counter : this.state.counter - 1})
-        }
-    }
-
-    render() { 
-        return (                   
-           <div style={{ textAlign: 'center' }} className= 'ItemCounter'>
-               <p>Contador: {this.state.counter}</p>
-               <div className='btn-section'>
-                   <button onClick={this.CounterUp}>Incrementar</button>
-                   <button onClick={this.CounterDown}>Disminuir</button>
-                </div>
+    return (
+        <div className="count-container">
+            <div className="count-container__contador">
+                <button className="count-container__button" onClick={() => addProduct(-1)} disabled={qty === initial}>
+                -
+                </button>
+                <span className="count-container__qty">{qty}</span>
+                <button className="count-container__button" onClick={() => addProduct(+1)} disabled={qty === stock}>
+                +
+                </button>
             </div>
-        )};
-}
-    
-export default ItemCount;
-    
+
+            <button className="button-primary" onClick={() => {onAdd(qty);
+                }} disabled={stock === 0 ? true : null}> 
+                Agregar al carrito
+            </button>
+        </div>
+    );
+};
+
+export default ItemCount;    
+
+   
     
 
 
