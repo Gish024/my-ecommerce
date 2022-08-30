@@ -1,7 +1,7 @@
 nav {
     height: 10em;
     width: 100%;
-    background: rgb(129, 123, 123);
+    background: rgb(213, 213, 211);
 }
 nav .navbar-brand {
     font-size: 4em;
@@ -17,4 +17,9 @@ nav p {
 nav .nav-item {
     font-size: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+nav img {
+    height: 6em;
+    width: 6em;
+    margin-right: 1em;
 }

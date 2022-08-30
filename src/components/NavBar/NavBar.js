@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 import CartWidget from '../CartWidget';
+import Logo from '../assets/img/LogoZen.png';
 
 export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">                                                    
-                <a className="navbar-brand" href="index.html">AlmaZen</a>
+            <div className="container-fluid">  
+                <img src={Logo} alt="" className="Logo"></img>                                            
                 <p>Tienda de Productos Orgánicos</p>                
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

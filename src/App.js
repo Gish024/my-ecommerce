@@ -1,21 +1,27 @@
 //COMPONENTS
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import NavBar from './components/NavBar/NavBar.js';
-import LogoZen from './components/assets/img/LogoZen.png';
+import NavBar from './components/NavBar/NavBar';
+import './App.css';
+import React, { Component } from 'react';
+import ItemCount from './components/ItemListContainer/ItemCount.js';
 
 
-function App() {
+  class App extends Component {
 
-  return (
-    <>
-      <NavBar/>
-      <img src={LogoZen} alt=""/>
-      <h3>Productos de temporada, seleccionados cuidadosamente y sencillamente deliciosos</h3>
-      <ItemListContainer/>
-
-    </>
-  );
+    render()  { 
+      return (
+        <>
+          <NavBar/> 
+  
+          <ItemListContainer />     
+                
+          <h3>Productos de temporada, seleccionados cuidadosamente y sencillamente deliciosos</h3>
+                
+          <ItemCount stock="10" initial="1"/>  
+      </>
+      );
+    };
 }
 
 export default App;
