@@ -1,16 +1,24 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-image: rgb(144, 138, 138);
     border-radius: 20px;
     overflow: hidden;
-    width: 27rem;
-    height: 35rem;
+    width: 25rem;
+    height: 38rem;
     padding: 2rem; 
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
-    margin: 1rem;
-    margin-bottom: 1.5rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);    
+    margin-bottom: 1rem;
+    margin: 1em;
 }
 
 .card-body {
@@ -25,7 +33,7 @@
 .card-body p {
     text-align: center;
     font-size: 1.5em;
-    color: rgb(33, 33, 161);
+    color: rgb(22, 211, 19);
 }
 .card-body .btn-primary {
     align-items: center;
@@ -35,4 +43,5 @@
 .card img {
     width: 20rem;
     height: 20rem;
+    margin-top: 4em;
 }
