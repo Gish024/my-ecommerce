@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "stock": 10,
+        "sold": 0,
+        "name": "Garbanzos",
+        "description": "Orgánicos por 500 grs.",
+        "price": 130,
+        "images": "../resources/garbanzos.jpg"
+    },
+    {
+        "id": 2,
+        "stock": 20,
+        "sold": 0,
+        "name": "Lentejas",
+        "description": "Orgánicas por 500 grs.",
+        "price": 200,
+        "images": "../resources/lentejas.jpg"
+    },
+    {
+        "id": 3,
+        "stock": 15,
+        "sold": 0,
+        "name": "Porotos Moom",
+        "description": "Orgánicos por 500 grs.",
+        "price": 130,
+        "images": "../resources/porotosMoom.jpg"
+    },
+    {
+        "id": 4,
+        "stock": 20,
+        "sold": 0,
+        "name": "Porotos Morados",
+        "description": "Orgánicos por 500 grs.",
+        "price": 120,
+        "images": "../resources/porotosMorados.jpg"
+    },
+    {
+        "id": 5,
+        "stock": 9,
+        "sold": 0,
+        "name": "Semillas de Girasol",
+        "description": "Orgánicas por 200 grs.",
+        "price": 110,
+        "images": "../resources/girasol.jpg"
+    },
+    {
+        "id": 6,
+        "stock": 15,
+        "sold": 0,
+        "name": "Avena Arrollada",
+        "description": "Orgánica por 500 grs.",
+        "price": 200,
+        "images": "../resources/avena-arrollada.jpg"
+    },
+    {
+        "id": 7,
+        "stock": 20,
+        "sold": 0,
+        "name": "Alubias",
+        "description": "Orgánica por 500 grs.",
+        "price": 120,
+        "images": "../resources/alubias.jpg"
+    },
+    {
+        "id": 8,
+        "stock": 15,
+        "sold": 0,
+        "name": "Maíz Pisingallo",
+        "description": "Orgánico por 300 grs.",
+        "price": 90,
+        "images": "../resources/pisiNgallo.jpg"
+    },
+    {
+        "id": 9,
+        "stock": 12,
+        "sold": 0,
+        "name": "Semillas de Lino",
+        "description": "Orgánica por 150 grs.",
+        "price": 100,
+        "images": "../resources/lino.jpg"
+    },
+    {
+        "id": 10,
+        "stock": 10,
+        "sold": 0,
+        "name": "Semillas de Sésamo Integral",
+        "description": "Orgánica por 150 grs.",
+        "price": 150,
+        "images": "../resources/sesamo.jpg"
+    }
+]

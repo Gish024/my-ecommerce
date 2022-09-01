@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Harry Potter y la piedra filosofal",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el colegio interno Hogwarts de magia y hechicería.",
+    "tinyDescription": "Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley.",
+    "price": 2999,
+    "images": {
+      "small": "books/small/harry-potter-y-la-piedra-filosofal.jpg",
+      "medium": "books/medium/harry-potter-y-la-piedra-filosofal.jpg",
+      "large": "books/large/harry-potter-y-la-piedra-filosofal.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 2,
+    "stock": 1500,
+    "sold": 0,
+    "title": "50 Sombras de Gray",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Ana es una inexperta estudiante universitaria a la que encargan una entrevista con el enigmático multimillonario Christian Grey. Lo que empieza como un sencillo trabajo pronto se convierte en un romance poco convencional. Dejándose llevar por el sofisticado estilo de vida de Christian, Ana descubre sus secretos y explora sus propios deseos. Ambos viven un romance apasionado, incontenible, en el que ponen a prueba los límites que podría alcanzar su relación.",
+    "tinyDescription": "Ana es una inexperta estudiante universitaria a la que encargan una entrevista con el enigmático multimillonario Christian Grey.",
+    "price": 3799,
+    "images": {
+      "small": "books/small/50-sombras-de-gray.jpg",
+      "medium": "books/medium/50-sombras-de-gray.jpg",
+      "large": "books/large/50-sombras-de-gray.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 3,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Bajo la misma estrella",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Hazel tiene dieciséis años, está enferma de cáncer desde pequeña y sobrevive gracias a un pequeño milagro médico y a la bombona de oxígeno que la acompaña todo el tiempo. Un día, Hazel conoce a Gus, que ya ha superado la enfermedad.",
+    "tinyDescription": "Hazel tiene dieciséis años, está enferma de cáncer desde pequeña y sobrevive gracias a un pequeño milagro médico...",
+    "price": 2799,
+    "images": {
+      "small": "books/small/bajo-la-misma-estrella.jpg",
+      "medium": "books/medium/bajo-la-misma-estrella.jpg",
+      "large": "books/large/bajo-la-misma-estrella.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 4,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Divergente",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "En el Chicago distópico de Beatrice, la sociedad está dividida en cinco facciones. En una ceremonia anual, todos los chicos de dieciseis años deben decidir a que facción dedicarán el resto de sus vidas. Beatrice tiene que elegir entre quedarse con su familia... y ser quien realmente es. Así que toma una decisión que sorprenderá a todo el mundo, incluida ella...",
+    "tinyDescription": "Una elección que delimita quienes son tus amigos. Una elección que define tus creencias. Una elección que determina tus lealtades... para siempre. Una sola elección puede transformarte.",
+    "price": 3199,
+    "images": {
+      "small": "books/small/divergente.jpg",
+      "medium": "books/medium/divergente.jpg",
+      "large": "books/large/divergente.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 5,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Patria",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "El día en que ETA anuncia el abandono de las armas, Bittori se dirige al cementerio para contarle a la tumba de su marido el Txato, asesinado por los terroristas, que ha decidido volver a la casa donde vivieron. ¿Podrá convivir con quienes la acosaron antes y despues del atentado que trastocó su vida y la de su familia? ¿Podrá saber quien fue el encapuchado que un día lluvioso mató a su marido, cuando volvía de su empresa de transportes? Por más que llegue a escondidas, la presencia de Bittori alterará la falsa tranquilidad del pueblo, sobre todo de su vecina Miren, amiga íntima en otro tiempo, y madre de Joxe Mari, un terrorista encarcelado y sospechoso de los peores temores de Bittori. ¿Que pasó entre esas dos mujeres? ¿Que ha envenenado la vida de sus hijos y sus maridos tan unidos en el pasado? Con sus desgarros disimulados y sus convicciones inquebrantables, con sus heridas y sus valentías, la historia incandescente de sus vidas antes y despues del cráter que fue la muerte del Txato, nos habla de la imposibilidad de olvidar y de la necesidad de perdón en una comunidad rota por el fanatismo político.",
+    "tinyDescription": "El día en que ETA anuncia el abandono de las armas, Bittori se dirige al cementerio para contarle a la tumba de su marido el Txato, asesinado por los terroristas, que ha decidido volver a la casa donde vivieron.",
+    "price": 3449,
+    "images": {
+      "small": "books/small/patria-aramburu.jpg",
+      "medium": "books/medium/patria-aramburu.jpg",
+      "large": "books/large/patria-aramburu.jpg"
+    },
+    "bestSeller": false
+  },
+  {
+    "id": 6,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Sinsajo",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Katniss Everdeen ha sobrevivido dos veces a los Juegos del Hambre, pero no está a salvo. La revolución se extiende y, al parecer, todos han tenido algo que ver en el meticuloso plan, todos excepto Katniss.Aun así su papel en la batalla final es el más importante de todos. Katniss debe convertirse en el Sinsajo, en el símbolo de la rebelión... a cualquier precio.",
+    "tinyDescription": "El esperado desenlace de la espectacular historia de Katniss Everdeen en la increíble trilogía de 'Los Juegos del Hambre'.",
+    "price": 3449,
+    "images": {
+      "small": "books/small/sinsajo-los-juegos-del-hambre.jpg",
+      "medium": "books/medium/sinsajo-los-juegos-del-hambre.jpg",
+      "large": "books/large/sinsajo-los-juegos-del-hambre.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 7,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Inferno",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "«Los lugares más oscuros del infierno están reservados para aquellos que mantienen su neutralidad en épocas de crisis moral.» El profesor de simbología Robert Langdon se despierta en un hospital en mitad de la noche, desorientado y con una herida en la cabeza. No recuerda nada de las últimas treinta y seis horas. Ni cómo ha llegado hasta allí, ni el origen del macabro objeto que los médicos descubren entre sus pertenencias. El mundo de Langdon pronto se convierte en un caos y se ve obligado a huir por las calles de Florencia junto a una inteligente joven, Sienna Brooks, cuyas hábiles maniobras le salvan la vida. Langdon no tarda en darse cuenta de que se encuentra en posesión de una serie de inquietantes códigos creados por un brillante científico; un genio cuya obsesión con el fin del mundo sólo es equiparable a la pasión que siente por una de las obras maestras más influyentes jamás escritas:Inferno, el oscuro poema épico de Dante Alighieri. En su huida a través de escenarios tan conocidos como el Palazzo Vecchio, los jardines Boboli o el Duomo, Langdon y Brooks descubren una red de pasadizos ocultos y secretos antiguos, así como un nuevo y terrorífico paradigma científico que podría ser utilizado para mejorar la vida en la Tierra... o para destruirla. Apasionante y con...",
+    "tinyDescription": "«Los lugares más oscuros del infierno están reservados para aquellos que mantienen su neutralidad en épocas de crisis moral.»",
+    "price": 2999,
+    "images": {
+      "small": "books/small/inferno.jpg",
+      "medium": "books/medium/inferno.jpg",
+      "large": "books/large/inferno.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 8,
+    "stock": 1500,
+    "sold": 0,
+    "title": "El guardián invisble",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "El guardián invisible de Dolores Redondo: impactante thriller que tiene su mejor baza en el contraste entre lo racional y científico, y lo legendario y mítico. El guardián invisible de Dolores Redondo es la primera parte de la Trilogía del Baztán. «Ainhoa Elizasu fue la segunda víctima del basajaun, aunque entonces la prensa todavía no lo llamaba así. Fue un poco más tarde cuando trascendió que alrededor de los cadáveres aparecían pelos de animal, restos de piel y rastros dudosamente humanos, unidos a una especie de fúnebre ceremonia de purificación. Una fuerza maligna, telúrica y ancestral parecía haber marcado los cuerpos de aquellas casi niñas con la ropa rasgada, el vello púbico rasurado y las manos dispuestas en actitud virginal.» En los márgenes del río Baztán, en el valle de Navarra, aparece el cuerpo desnudo de una adolescente en unas circunstancias que lo ponen en relación con un asesinato ocurrido en los alrededores un mes atrás. La inspectora de la sección de homicidios dela Policía Foral, Amaia Salazar, será la encargada de dirigir una investigación que la llevará devuelta a Elizondo, una pequeña población de donde es originaria y de la que ha tratado dehuir toda su vida. Enfrentada con las cada vez más complicadas derivaciones del caso y con sus propios fantasmas familiares, la investigación de Amaia es una carrera contrarreloj para dar con un asesino que puede mostrar el rostro más aterrador de una realidad brutal al tiempo que convocar a los seres más inquietantes de las leyendas del Norte.",
+    "tinyDescription": "El guardián invisible de Dolores Redondo: impactante thriller que tiene su mejor baza en el contraste entre lo racional y científico, y lo legendario y mítico. El guardián invisible de Dolores Redondo es la primera parte de la Trilogía del Baztán.",
+    "price": 2999,
+    "images": {
+      "small": "books/small/el-guardian-invisible.jpg",
+      "medium": "books/medium/el-guardian-invisible.jpg",
+      "large": "books/large/el-guardian-invisible.jpg"
+    },
+    "bestSeller": false
+  },
+  {
+    "id": 9,
+    "stock": 1500,
+    "sold": 0,
+    "title": "La chica del tren",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Rachel toma siempre el tren de las 8.04 h. Cada mañana lo mismo: el mismo paisaje, las mismas casas…y la misma parada en la señal roja. Son solo unos segundos, pero le permiten observar a una pareja desayunando tranquilamente en su terraza. Siente que los conoce y se inventa unos nombres para ellos: Jess y Jason. Su vida es perfecta, no como la suya. Pero un día ve algo. Sucede muy deprisa, pero es suficiente. ¿Y si Jess y Jason no son tan felices como ella cree? ¿Y si nada es lo que parece? Tú no la conoces. Ella a ti, sí.",
+    "tinyDescription": "¿Estabas en el tren de las 8.04? ¿Viste algo sospechoso? Rachel, sí",
+    "price": 3199,
+    "images": {
+      "small": "books/small/la-chica-del-tren-paula-hawkins.jpg",
+      "medium": "books/medium/la-chica-del-tren-paula-hawkins.jpg",
+      "large": "books/large/la-chica-del-tren-paula-hawkins.jpg"
+    },
+    "bestSeller": false
+  },
+  {
+    "id": 10,
+    "stock": 1500,
+    "sold": 0,
+    "title": "El prisionero del cielo",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Escribo estas palabras en la esperanza y el convencimiento de que algún día descubrirás este lugar…un lugar que cambió mi vida como estoy seguro de que cambiará la tuya. Barcelona, 1957. Daniel Sempere y su amigo Fermín, los héroes deLa Sombra del Viento, regresan de nuevo a la aventura para afrontar el mayor desafío de sus vidas. Justo cuando todo empezaba a sonreírles, un inquietante personaje visita la librería de Sempere y amenaza con desvelar un terrible secreto que lleva enterrado dos décadas en la oscura memoria de la ciudad. Al conocer la verdad, Daniel comprenderá que su destino le arrastra inexorablemente a enfrentarse con la mayor de las sombras: la que está creciendo en su interior. Rebosante de intriga y emoción,El Prisionero del Cielo es una novela magistral donde los hilos de La Sombra del Viento yEl Juego del Ángel convergen a través del embrujo de la literatura y nos conduce hacia el enigma que se oculta en el corazón del Cementerio de los Libros Olvidados.",
+    "tinyDescription": "Escribo estas palabras en la esperanza y el convencimiento de que algún día descubrirás este lugar…un lugar que cambió mi vida como estoy seguro de que cambiará la tuya.",
+    "price": 3199,
+    "images": {
+      "small": "books/small/el-prisionero-del-cielo-carlos-zafon.jpg",
+      "medium": "books/medium/el-prisionero-del-cielo-carlos-zafon.jpg",
+      "large": "books/large/el-prisionero-del-cielo-carlos-zafon.jpg"
+    },
+    "bestSeller": false
+  },
+  {
+    "id": 11,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Yo antes de ti",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Louisa Clark sabe muchas cosas. Sabe cuántos pasos hay entre la parada del autobús y su casa. Sabe que le gusta trabajar en el café Buttered Bun y sabe que quizá no quiera a su novio Patrick. Lo que Lou no sabe es que está a punto de perder su trabajo o que son sus pequeñas rutinas las que la mantienen en su sano juicio. Will Traynor sabe que un accidente de moto se llevó sus ganas de vivir. Sabe que ahora todo le parece insignificante y triste y sabe exactamente cómo va a solucionarlo. Lo que Will no sabe es que Lou está a punto de irrumpir en su mundo con una explosión de color. Y ninguno de los dos sabe que va a cambiar al otro para siempre. Yo antes de ti reúne a dos personas que no podrían tener menos en común en una novela conmovedoramente romántica con una pregunta: ¿Qué decidirías cuando hacer feliz a la persona a la que amas significa también destrozarte el corazón?",
+    "tinyDescription": "Louisa Clark sabe muchas cosas. Sabe cuántos pasos hay entre la parada del autobús y su casa. Sabe que le gusta trabajar en el café Buttered Bun y sabe que quizá no quiera a su novio Patrick.",
+    "price": 3199,
+    "images": {
+      "small": "books/small/yo-antes-de-ti-jojo-moyes.jpg",
+      "medium": "books/medium/yo-antes-de-ti-jojo-moyes.jpg",
+      "large": "books/large/yo-antes-de-ti-jojo-moyes.jpg"
+    },
+    "bestSeller": true
+  },
+  {
+    "id": 12,
+    "stock": 1500,
+    "sold": 0,
+    "title": "Cementerio de animales",
+    "publisher": "Example publisher",
+    "author": "Example Author",
+    "description":
+      "Louis lo había comprobado: el gato estaba muerto, y por eso lo había enterrado. Aun así, incomprensiblemente, el gato había vuelto a casa. Church estaba allí otra vez, como Louis Creed temía y deseaba. Porque su hijita Ellie le había encomendado que cuidara del gato, y Church había muerto atropellado. Louis lo había comprobado: el gato estaba muerto, incluso lo había enterrado más allá del cementerio de animales. Sin embargo, Chruch había regresado, y sus ojos eran más crueles y perversos que antes. Pero volvía a estar allí y Ellie no lo lamentaría. Louis Creed sí lo lamentaría. Porque más allá del cementerio de animales, más allá de la valla de troncos que nadie se atrevía a traspasar, más allá de los cuarenta y cinco escalones, el maligno poder del antiguo cementerio indio le reclamaba con macabra avidez...",
+    "tinyDescription": "Louis lo había comprobado: el gato estaba muerto, y por eso lo había enterrado. Aun así, incomprensiblemente, el gato había vuelto a casa.",
+    "price": 3199,
+    "images": {
+      "small": "books/small/cementerio-de-animales-stephen-king.jpg",
+      "medium": "books/medium/cementerio-de-animales-stephen-king.jpg",
+      "large": "books/large/cementerio-de-animales-stephen-king.jpg"
+    },
+    "bestSeller": true
+  }
+]
