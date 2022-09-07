@@ -1,38 +1,22 @@
-import * as React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
-import ItemCount from "../ItemListContainer/ItemCount";
+import React from 'react';
 
+import './ItemDetail.css';
 
-const ItemDetail = ({ data }) => {
-  const onAdd = (counter) => {
-    alert(`Se agregaron ${counter} productos al carrito`);
-  };
+const ItemDetail = ({data}) => {
   return (
-    <Card className="Card-container" sx={{ maxWidth: 250 }}>
-      <div className="Card-header">
-        <p>Ver detalle del producto</p>
+    <div className='container'>
+      <div className='detail'>
+        <img src={data.images} alt={data.name} className="card-img-top"></img> 
+        <div className="content">
+          <h4>{data.name}</h4>
+          <h6>{data.description}</h6>
+          <p>${data.price}</p>
+          <span>Stock Disponible: {data.stock}</span>
+          <button className="btn btn-primary" type="button">Comprar</button>
+        </div>
       </div>
-      <CardActionArea>
-        <CardMedia component="img" image={data.pictureUrl} alt={data.name} />
-        <CardContent className="Card-content">
-          <Typography variant="h6" component="div" color="#fff">
-            {data.name}
-          </Typography>
-          <Typography variant="h7" color="#fff">
-            $ {data.price}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <ItemCount stock={20} initial={0} onAdd={onAdd} />
-      <div className="Stock-Products">
-        <p>Stock Disponible: {data.stock} u.</p>
-      </div>
-    </Card>
+    </div>
   );
-};
+}
 
-export default ItemDetail; 
+export default ItemDetail;

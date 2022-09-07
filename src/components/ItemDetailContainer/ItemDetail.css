@@ -1,0 +1,55 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+.detail {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail img {
+    width: 25%;
+    margin: 2rem;
+}
+.content {
+    width: 50%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+.content h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin-left: 3rem;
+    text-decoration: wavy;
+}
+.content h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: chocolate;
+    margin-left: 1rem;
+   
+}
+.content p {
+    font-size: 3rem;
+    font-family: cursive;
+    color: rgb(141, 116, 68);
+    margin: 1rem;
+    margin-left: 3rem;
+}
+.content span {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(4, 167, 15);
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+.btn-primary {
+    width: 10rem;  
+    margin-left: 2rem;  
+}
