@@ -9,7 +9,7 @@ const productos = [
   {id: 4, stock: 20, sold: 0, name: "Porotos Morados", description: "Orgánicos por 500 grs.", price: 120, images: "../resources/porotosMorados.jpg"}
 ];
 
-export const ItemListContainer = () => {
+const ItemListContainer = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
