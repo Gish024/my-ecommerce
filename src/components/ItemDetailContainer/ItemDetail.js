@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 import './ItemDetail.css';
 
-const ItemDetail = ({data}) => {
+const ItemDetail = ({ data }) => {
   return (
     <div className='container'>
       <div className='detail'>

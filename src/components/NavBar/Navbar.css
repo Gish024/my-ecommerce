@@ -1,22 +1,20 @@
 nav {
     height: 10em;
     width: 100%;
-    background: rgb(213, 213, 211);
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
 }
-nav .navbar-brand {
-    font-size: 4em;
-    color: rgb(77, 108, 247);
-    font-style: italic;
-    margin-right: 3em;
 
-}
 nav p {
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: fantasy;
+    font-style: italic;
+    color: rgb(89, 43, 131);
 }
 nav .nav-item {
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1em;
+    color: rgb(110, 105, 105);    
 }
 nav img {
     height: 6em;

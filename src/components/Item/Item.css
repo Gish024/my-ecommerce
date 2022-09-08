@@ -1,17 +1,18 @@
 .container {
     display: grid;
-    grid-column: 10;
-    grid-row: 3;  
-
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    margin: 1rem;    
+    margin-bottom: 1rem;
+    width: 50%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: rgb(144, 138, 138);
-    border-radius: 20px;
-    overflow: hidden;
+    background: rgb(224, 214, 214);
+    border-radius: 20px;    
     width: 25rem;
     height: 38rem;
     padding: 2rem; 
@@ -20,21 +21,18 @@
     margin: 1em;
 }
 
-.card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.card h4 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(164, 95, 6);
+
 }
-.card-body h4 {
+.card p {
     text-align: center;
     font-size: 1.5em;
+    color: rgb(202, 127, 5);
 }
-.card-body p {
-    text-align: center;
-    font-size: 1.5em;
-    color: rgb(22, 211, 19);
-}
-.card-body .btn-primary {
+.card .btn-success {
     align-items: center;
     margin: 1em;    
 }
