@@ -5,15 +5,20 @@ import { Link } from 'react-router-dom';
 
 const Item = ({ detalle }) => {
     
-  return (            
-    <Link to={`/detail/${detalle.id}`} className='container'>
-      <div className='card'>
-        <img src={detalle.images} alt={detalle.name} />
-        <h4>{detalle.name}</h4>
-        <p>$ {detalle.price}</p>
-        <button className="btn btn-success" type="button">Ver Mas Info</button>
-      </div>               
-    </Link>       
+  return ( 
+    <div className='card'>
+      <img src={detalle.images} alt={detalle.name} />
+      <h4>{detalle.name}</h4>
+      <p>$ {detalle.price}</p>
+      <Link to={`/detail/${detalle.id}`}>
+        <button className="btn btn-success" type="button">
+          Mas Info
+        </button>
+      </Link>
+  </div>          
+    
+                   
+   
        
   );
 };

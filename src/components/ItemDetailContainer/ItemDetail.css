@@ -1,7 +1,6 @@
 .container {
     width: 80%;
-    margin: auto;
-    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    margin: auto;    
 }
 .detail {
     margin-top: 1rem;
@@ -46,11 +45,11 @@
 .content span {
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(4, 167, 15);
+    color: rgb(13, 209, 26);
     padding: 1rem;
     margin-left: 3rem;
 }
 .btn-primary {
     width: 10rem;  
-    margin-left: 3rem;  
+    margin-left: 1rem;  
 }
