@@ -32,7 +32,7 @@ const ItemListContainer = () => {
     const getData = new Promise(resolve => {
       setTimeout(() => {
         resolve(products);
-      }, 2000);      
+      }, 1000);      
     });
     if (categoryId) {
       getData.then(res => setData(res.filter(legumbre => legumbre.category === categoryId)));

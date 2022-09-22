@@ -1,0 +1,20 @@
+.itemCart {
+    display: flex;
+    border-bottom: 2px solid burlywood;
+    max-width: 500px;
+    margin: 1rem auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    font-size: 1em;
+}
+
+.itemCart img {
+    width: 250px;
+    margin-right: 1rem;
+}
+.itemCart button {
+    background-color: rgb(242, 232, 158);
+    border: 1px solid rgb(202, 180, 16);
+    color: darkslategray;
+    margin-left: 3em;
+}

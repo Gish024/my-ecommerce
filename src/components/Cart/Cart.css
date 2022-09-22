@@ -1,0 +1,23 @@
+.totalPrice {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: darkolivegreen;
+    margin: 1rem auto;
+    justify-content: center;   
+}
+.carritoVacio {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    justify-content: center;
+    color: darkgreen; 
+}
+.enlace {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    background-color: burlywood;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
