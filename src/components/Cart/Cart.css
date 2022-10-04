@@ -14,10 +14,20 @@
     color: darkgreen; 
 }
 .enlace {
-    display: flex;
+    display: inline-flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
-    background-color: burlywood;
+    background-color: rgb(48, 194, 238);
     font-size: 1.5em;
-    text-decoration: underline;
+    text-decoration: none;
+    width: 10em;
+    margin-left: 22em;
+    color: rgb(91, 86, 86);    
+}
+.Finish {
+    display: flex;
+    justify-content: center;
+    margin-left: 35em;
+    font-weight: bold;
+    background: rgb(185, 244, 130);
 }

@@ -1,6 +1,8 @@
 .container {
-    width: 80%;
-    margin: auto;    
+    width: 70%;
+    margin: auto;
+    background: rgb(244, 228, 208); 
+    margin-top: 3em;   
 }
 .detail {
     margin-top: 1rem;
@@ -10,12 +12,13 @@
     flex-wrap: wrap;
 }
 .detail img {
-    width: 30%;
+    width: 40%;
     margin: 2rem;
+    border-radius: 2px, 5px, 2px, rgb(107, 105, 105);
 }
 .content {
-    width: 50%;
-    margin-left: 3rem;
+    width: 30%;
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,19 +41,26 @@
 .content p {
     font-size: 3rem;
     font-family: cursive;
-    color: rgb(141, 116, 68);
+    color: rgb(41, 104, 198);
     margin: 1rem;
     margin-left: 4rem;
 }
 .content span {
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(13, 209, 26);
-    padding: 1rem;
-    margin-left: 3rem;
+    color: rgb(6, 144, 15);    
+    margin-left: 1.5rem;
+    margin-bottom: 1em;
 }
-
 .content .button-Finish {
     width: 10rem;  
-    margin-left: 1rem;  
+    margin-left: 4rem;
+    background: rgb(78, 141, 244); 
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10%;
+    text-align: center;
+    height: 2em;
 }
+
