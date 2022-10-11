@@ -8,21 +8,36 @@
 }
 .carritoVacio {
     display: flex;
+    position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
-    justify-content: center;
-    color: darkgreen; 
+    text-align: center;
+    color: rgb(48, 42, 102);  
+    font-weight: bold; 
+    margin-left: 12em;  
+    margin-top: 4em;
+    opacity: 1;
+}
+.portada {
+    height: 27em;
+    width: 100%;
+    display: block;
+    opacity: 0.5;
 }
 .enlace {
     display: inline-flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
-    background-color: rgb(48, 194, 238);
+    background-color: rgb(55, 18, 108);
     font-size: 1.5em;
     text-decoration: none;
     width: 10em;
     margin-left: 22em;
-    color: rgb(91, 86, 86);    
+    color: rgb(250, 247, 247); 
+    position: relative;   
+    margin-top: 0.5em;
+    font-weight: bold;
+    text-align: center;
 }
 .Finish {
     display: flex;
@@ -30,4 +45,40 @@
     margin-left: 35em;
     font-weight: bold;
     background: rgb(185, 244, 130);
+}
+
+.FormContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+.Textfield {
+	width: 400px;
+}
+
+.btnASendAction {
+	background: rgb(4, 162, 173);
+	background: radial-gradient(
+		circle,
+		rgb(5, 150, 247) 77%,
+		rgb(7, 82, 243) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 400px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;
+	margin: 10px;
+}
+
+.btnASendAction:hover {
+	color: rgb(59, 196, 88);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(11, 4, 4) 77%, rgb(0, 0, 0) 100%);
 }
