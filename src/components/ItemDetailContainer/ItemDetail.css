@@ -1,8 +1,8 @@
 .container {
     width: 70%;
     margin: auto;
-    background: rgb(244, 228, 208); 
-    margin-top: 3em;   
+    background: linear-gradient(to right, #ffeeee, #ddefbb); 
+    margin-top: 1em;   
 }
 .detail {
     margin-top: 1rem;
@@ -13,8 +13,10 @@
 }
 .detail img {
     width: 40%;
+    height: 30%;
     margin: 2rem;
     border-radius: 2px, 5px, 2px, rgb(107, 105, 105);
+    margin-top: 4em;
 }
 .content {
     width: 30%;
@@ -25,42 +27,84 @@
     margin-top: 2rem;
 }
 .content h4 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
-    margin-left: 3rem;
-    text-decoration: wavy;
+    font-family: 'Trebuchet MS';
+    font-size: 2rem;    
+    text-decoration: wavy;    
+    text-align: center;    
+    font-weight: bold;
 }
 .content h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
     margin-top: 1rem;
     color: chocolate;
-    margin-left: 3rem;
-   
+    margin-left: 4rem;      
 }
 .content p {
     font-size: 3rem;
     font-family: cursive;
     color: rgb(41, 104, 198);
-    margin: 1rem;
-    margin-left: 4rem;
+    margin: 0.5rem;
+    margin-left: 5rem;
 }
 .content span {
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(6, 144, 15);    
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
     margin-bottom: 1em;
 }
 .content .button-Finish {
-    width: 10rem;  
-    margin-left: 4rem;
-    background: rgb(78, 141, 244); 
-    color: white; 
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10%;
+    background: rgb(4, 162, 173);
+	background: radial-gradient(
+		circle,
+		rgb(5, 150, 247) 77%,
+		rgb(7, 82, 243) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 200px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;	
     text-align: center;
-    height: 2em;
+    padding-top: 8px;
+    text-decoration: none;
+    margin-left: 3em;
+    font-weight: bold;
+}
+
+.button-Finish:hover {
+	color: rgb(59, 196, 88);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
+}
+.content .Return {
+	background: rgb(27, 190, 16);
+	background: radial-gradient(
+		circle,
+		rgb(179, 218, 136) 77%,
+		rgb(21, 169, 46) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 200px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;	
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 3em;
+}
+.Return:hover {
+	color: rgb(59, 196, 182);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
 }
 

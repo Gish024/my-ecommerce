@@ -1,0 +1,43 @@
+.Open {    
+    background: radial-gradient(circle, rgb(245, 212, 159) 77%, rgb(249, 127, 14) 100%);  
+    height: 44px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background, color 0.5s;
+    outline: #f4ba1b;
+    border: none;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;    
+    padding: 0.5em;
+    color: ghostwhite;
+    font-weight: bold;
+    margin-bottom: 4em;
+}
+.Open:hover {
+    color: rgb(74, 146, 23);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(245, 245, 159) 77%, rgb(249, 221, 14) 100%);
+}
+.Close {
+    color: rgb(10, 247, 212);	
+    background: radial-gradient(circle, rgb(199, 196, 196) 77%, rgb(69, 67, 67) 100%); 
+    height: 34px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background, color 0.5s;
+    outline: #b5b5b3;
+    border: none;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;    
+    padding: 0.5em;
+}
+.Close:hover {
+    color: rgb(10, 247, 212);	
+    background: radial-gradient(circle, rgb(56, 55, 55) 77%, rgb(13, 13, 13) 100%);
+}

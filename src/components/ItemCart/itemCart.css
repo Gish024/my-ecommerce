@@ -13,8 +13,25 @@
     margin-right: 1rem;
 }
 .itemCart button {
-    background-color: rgb(242, 232, 158);
-    border: 1px solid rgb(202, 180, 16);
-    color: rgb(162, 143, 5);
-    margin-left: 3em;
+    color: rgb(58, 131, 7);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(245, 212, 159) 77%, rgb(249, 127, 14) 100%);       
+    height: 34px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background, color 0.5s;
+    outline: #b5b5b3;
+    border: none;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 3em;   
+    
 }
+button:hover {
+    color: rgb(10, 247, 212);	
+    background: radial-gradient(circle, rgb(126, 121, 121) 77%, rgb(69, 67, 67) 100%);
+}
+

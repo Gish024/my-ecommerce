@@ -28,9 +28,10 @@ const ItemDetail = ({ data }) => {
           <span>Stock Disponible: {data.stock} unidades</span>
           {
             goToCard
-            ? <Link to='/cart' className="button-Finish">Finalizar Compra</Link>
-            : <ItemCount initial={1} stock={data.stock} onAdd={onAdd} />
-          }         
+            ? <Link to='/cart' className="button-Finish">Ir al carrito</Link>            
+            : <ItemCount initial={1} stock={data.stock} onAdd={onAdd} />              
+          }
+          <Link to='/' className='Return'>Seguir comprando</Link>                  
         </div>
       </div>
     </div>

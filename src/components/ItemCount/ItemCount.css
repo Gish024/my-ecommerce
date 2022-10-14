@@ -1,13 +1,31 @@
 .counter {
-    width: fit-content;
-    background-color: rgb(212, 224, 246);
-    margin: auto;
+    width: fit-content;  
     padding: 1rem;
-    text-align: justify;
-    margin-bottom: 1em;
+    text-align: justify;    
+    margin-left: 2em;
 }
-.counter btn-primary {    
-    margin: 5px;
+.counter .AddCart {    
+    background: rgb(4, 162, 173);
+	background: radial-gradient(
+		circle,
+		rgb(5, 150, 247) 77%,
+		rgb(7, 82, 243) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 200px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;
+	margin-left: 0.5em;
+	
+}
+.AddCart:hover {
+	color: rgb(59, 196, 88);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
 }
 .counter span {
     text-align: center;
@@ -15,12 +33,13 @@
     margin-right: 1.5em;    
 }
 .counter .subtract {
-    margin-left: 1em;   
+    margin-left: 3em;   
     background: rgb(177, 201, 246);    
     
 }
 .counter .add {
     background: rgb(177, 201, 246);
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 

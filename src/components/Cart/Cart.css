@@ -1,3 +1,4 @@
+
 .totalPrice {
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,20 +26,30 @@
     opacity: 0.5;
 }
 .enlace {
-    display: inline-flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: center;
-    background-color: rgb(55, 18, 108);
-    font-size: 1.5em;
-    text-decoration: none;
-    width: 10em;
-    margin-left: 22em;
-    color: rgb(250, 247, 247); 
-    position: relative;   
-    margin-top: 0.5em;
-    font-weight: bold;
-    text-align: center;
+	display: flex;
+	background: rgb(4, 162, 173);
+	background: radial-gradient(circle, rgb(5, 150, 247) 77%, rgb(7, 82, 243) 100%);
+	color: white;
+	height: 44px;
+	width: 200px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;
+	margin: 10px;	
+	margin-left: 30em;
+	justify-content: center;
+	text-decoration: none;
+	padding-top: 6px;
 }
+
+.enlace:hover {
+	color: rgb(59, 196, 88);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
+}
+    
 .Finish {
     display: flex;
     justify-content: center;
@@ -47,38 +58,59 @@
     background: rgb(185, 244, 130);
 }
 
-.FormContainer {
+.opciones {
+	position: relative;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 20px;
+	flex-direction: row;
+	margin-left: 27em;
 }
 
-.Textfield {
-	width: 400px;
-}
-
-.btnASendAction {
-	background: rgb(4, 162, 173);
-	background: radial-gradient(
-		circle,
-		rgb(5, 150, 247) 77%,
-		rgb(7, 82, 243) 100%
-	);
+.opciones .Return {
+	display: flex;
+	background: rgb(27, 190, 16);
+	background: radial-gradient(circle, rgb(179, 218, 136) 77%,	rgb(21, 169, 46) 100%);
 	color: white;
-	height: 54px;
-	width: 400px;
+	height: 44px;
+	width: 200px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;	
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 10px;
+	margin-right: 3em;
+	font-weight: bold;
+}
+.Return:hover {
+	color: rgb(59, 196, 182);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
+}
+.opciones .Ir {
+	display: flex;
+	background: rgb(4, 162, 173);
+	background: radial-gradient(circle,rgb(5, 150, 247) 77%,rgb(7, 82, 243) 100%);
+	color: white;
+	height: 44px;
+	width: 200px;
 	border-radius: 8px;
 	font-size: 18px;
 	transition: background, color 0.5s;
 	outline: #0026ff;
 	border: none;
-	margin: 10px;
+	text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 10px;
+	margin-top: 0.5em;
+	font-weight: bold;	
 }
-
-.btnASendAction:hover {
+	
+.Ir:hover {
 	color: rgb(59, 196, 88);
 	background: rgb(0, 0, 0);
-	background: radial-gradient(circle, rgb(11, 4, 4) 77%, rgb(0, 0, 0) 100%);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
 }

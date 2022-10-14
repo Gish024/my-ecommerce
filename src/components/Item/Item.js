@@ -41,8 +41,8 @@ const Item = ({ detalle }) => {
                     </Typography>                    
                   </CardContent>
                   <CardActions sx={{ alignItems: 'center', marginLeft: '7em' }}>
-                    <Link to={`/detail/${detalle.id}`}>
-                      <Button size="small" sx={{ background: 'rgb(75, 132, 245)', color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>Ver detalle</Button>
+                    <Link to={`/detail/${detalle.id}` } sx={{ textDecoration: 'none'}}>
+                      <Button size="small" sx={{ background: 'rgb(93, 184, 245)', fontWeight: 'bold', color: 'rgb(112, 109, 109)', transition: 'background, color 0.5s', outline: '#0026ff', border: 'none'  }}>Ver detalle</Button>
                     </Link>
                   </CardActions>
                 </Card>

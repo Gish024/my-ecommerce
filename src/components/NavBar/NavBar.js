@@ -13,7 +13,7 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="dropdown-item" to='/'>Productos</NavLink>                            
+                            <NavLink className="dropdown-item" to='/'>Ver todo</NavLink>                            
                         </li>                                                 
                         <li className="nav-item">
                             <NavLink className="dropdown-item" to='/category/legumbres'>Legumbres</NavLink>                                                                                        

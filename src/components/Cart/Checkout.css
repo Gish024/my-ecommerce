@@ -1,0 +1,73 @@
+.FormContainer {	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+.FormContainer .TextField {
+	width: 400px;	
+	background: radial-gradient(circle, rgb(185, 220, 243) 77%, rgb(176, 247, 241) 100%);
+	border: 2px solid rgb(69, 81, 244);
+	margin-left: 28em;
+	margin-top: 2em;	
+}
+.TextField:hover {
+    color: rgb(5, 168, 168);
+	background: rgb(228, 225, 225);
+	background: radial-gradient(circle, rgb(93, 184, 245) 77%, rgb(176, 247, 241) 100%);    
+}
+
+.btnASendAction {
+	background: rgb(4, 162, 173);
+	background: radial-gradient(
+		circle,
+		rgb(5, 150, 247) 77%,
+		rgb(7, 82, 243) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 400px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.btnASendAction:hover {
+	color: rgb(59, 196, 88);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
+}
+
+.Return {
+	background: rgb(27, 190, 16);
+	background: radial-gradient(
+		circle,
+		rgb(179, 218, 136) 77%,
+		rgb(21, 169, 46) 100%
+	);
+	color: white;
+	height: 54px;
+	width: 400px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #0026ff;
+	border: none;
+	margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 10px;
+	font-weight: bold;
+}
+.Return:hover {
+	color: rgb(59, 196, 182);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgb(112, 109, 109) 77%, rgb(0, 0, 0) 100%);
+}
