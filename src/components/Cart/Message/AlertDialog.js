@@ -5,17 +5,23 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import { Link } from 'react-router-dom';
+import { useCartContext } from "../../../Context/CartContext";
 import './AlertDialog.css';
 
+
 export default function AlertDialog({ purchaseID }) {
+
   const [open, setOpen] = React.useState(false);
+
+  const { clearCart } = useCartContext();
 
   const handleClickOpen = () => {
     setOpen(true);
   };
  
   const handleClose = () => {
-    setOpen(false);
+    clearCart();
   };
 
   return (
@@ -37,8 +43,12 @@ export default function AlertDialog({ purchaseID }) {
 		      A la brevedad nos estaremos comunicando. El código de tu transacción es: { purchaseID }
           </DialogContentText>
         </DialogContent>
-        <DialogActions>          
-          <Button onClick={handleClose} autoFocus className='Close'>Aceptar</Button>
+        <DialogActions>
+          <Link to='/'>          
+          <Button onClick={handleClose} autoFocus className='Close'>
+            Aceptar
+          </Button>
+          </Link>
         </DialogActions>
       </Dialog>
     </div>

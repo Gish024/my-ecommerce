@@ -1,0 +1,55 @@
+footer {  
+    align-items: flex-start;
+    color: rgb(59, 59, 58);
+    border-top: 3px solid rgb(49, 46, 46);
+    height: 17em;
+    background: rgb(194, 222, 213);
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-decoration: wavy;
+    color: black;
+    font-size: 1.5em;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-decoration: wavy;
+    color: black;
+    font-size: 1.2em;
+}
+footer ul span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgb(4, 49, 131);
+    font-size: 1em;
+}
+
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2em;
+    width: 2em;    
+}
+footer .redes .facebook {
+    margin-left: 20em;    
+}
+footer .redes .instagram {
+    margin-left: 10em;    
+}
+footer .redes .whatsapp {
+    margin-left: 10em;    
+}
+footer .redes .icoubi {
+    margin-left: 10em;    
+}
+

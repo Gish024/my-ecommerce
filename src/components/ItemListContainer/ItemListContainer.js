@@ -7,8 +7,6 @@ import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from '../../firebase/firebaseConfig';
 
 
-
-
 const ItemListContainer = () => {
   const [data, setData] = useState([]);
 
@@ -31,9 +29,9 @@ const ItemListContainer = () => {
     
   return (
     < div className='CardListContainer'>
-      <Title greeting='AlmaZen' />      
-           
-      <ItemList data={data} />    
+      <Title greeting='AlmaZen' /> 
+      <h4>Productos de temporada, seleccionados cuidadosamente y sencillamente deliciosos</h4> 
+      <ItemList data={data} className='cardList'/>            
     </div>
   );
 }

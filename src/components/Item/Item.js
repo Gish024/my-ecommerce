@@ -10,13 +10,12 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
 
-
 const cards = [1];
 
-const Item = ({ detalle }) => { 
+const Item = ({ detail }) => { 
     
   return (    
-        <Container xs={{ py: 8, heigth: '60%', width: '30%' }} maxWidth="xs">
+    <Container xs={{ py: 8, heigth: '60%', width: '30%' }} maxWidth="xs">
           {/*   End hero unit */}
           <Grid Container spacing={4}>
             {cards.map((card) => (
@@ -30,19 +29,19 @@ const Item = ({ detalle }) => {
                     sx={{
                       pt: '56,25%', heigth: '80%', width: '95%', paddingLeft: '15px', paddingTop: '15px'
                     }}
-                    img src={detalle.images} alt={detalle.name}                
+                    img src={detail.images} alt={detail.name}                
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom="h4" component="h2" sx={{ fontFamily: 'fantasy', fontSize: '1.4em', color: 'rgb(110, 105, 105)', textAlign: 'center' }}>
-                      {detalle.name}
+                      {detail.name}
                     </Typography>
                     <Typography sx={{ fontFamily: 'Franklin Gothic Medium', fontSize: '1.5em', color: 'rgb(4, 177, 111)', textAlign: 'center' }}>
-                      $ {detalle.price}
+                      $ {detail.price}
                     </Typography>                    
                   </CardContent>
                   <CardActions sx={{ alignItems: 'center', marginLeft: '7em' }}>
-                    <Link to={`/detail/${detalle.id}` } sx={{ textDecoration: 'none'}}>
-                      <Button size="small" sx={{ background: 'rgb(93, 184, 245)', fontWeight: 'bold', color: 'rgb(112, 109, 109)', transition: 'background, color 0.5s', outline: '#0026ff', border: 'none'  }}>Ver detalle</Button>
+                    <Link to={`/detail/${detail.id}` } sx={{ textDecoration: 'none'}}>
+                      <Button size="small" sx={{ background: 'rgb(93, 184, 245)', fontWeight: 'bold', color: 'rgb(112, 109, 109)', transition: 'background, color 0.5s', outline: '#0026ff', border: 'none', textDecoration: 'none'  }}>Ver detalle</Button>
                     </Link>
                   </CardActions>
                 </Card>
@@ -55,3 +54,7 @@ const Item = ({ detalle }) => {
 };
 
 export default Item;
+
+
+
+
